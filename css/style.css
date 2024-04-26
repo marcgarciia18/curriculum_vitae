@@ -1,0 +1,33 @@
+header{
+    position: static;
+    font-size: 20px;
+}
+
+#presentacion{
+    display: flex;
+    background-color: rgba(176, 176, 176, 0.254);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+#textopresentacion{
+    margin-left: 100px;
+    margin-right: 300px;
+    text-align: justify;
+}
+
+#textopresentacion p{
+    font-size: larger;
+}
+
+#objetivopersonal{
+    text-align: center;
+    margin: 100px;
+    font-size: larger;
+}
+
+#objetivos{
+    text-align: center;
+    display: flex;
+}
