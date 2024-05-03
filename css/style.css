@@ -1,9 +1,10 @@
 header{
     position: -webkit-sticky;
+    position: sticky;
     font-size: 20px;
 }
 
-h2, h3{
+h2, h3, h4, h5{
     color: #1b4557;
 }
 
@@ -48,7 +49,7 @@ h2, h3{
     margin: 50px;
 }
 
-#objetivo, #programacion, #aplicaciones, #mail, #telefono, #localidad, h3,img {
+#objetivo, #programacion, #aplicaciones, #mail, #telefono, #localidad,img {
 text-align: center;
 justify-content: center;
 }
@@ -90,3 +91,33 @@ footer img{
 #cv{ text-align: right;}
 #derechos{ text-align: left;}
 
+#estudios{
+        display: flex;
+        background-color: rgba(176, 176, 176, 0.254);
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 100px;
+    }
+
+#textosestudios{
+    margin-left: 100px;
+    margin-right: 300px;
+    text-align: justify;
+    font-size: large;
+}
+#fcomplementaria{ 
+    padding-left: 300px;
+    margin-top: 50px;
+}
+
+#formacionescomp{
+    display: flex;
+    flex: 0.3;
+    font-size: large;
+    margin-bottom: 50px;
+}
+ #intro{
+    font-size: large;
+    flex: 0.3;
+    margin-right: 200px;
+}
