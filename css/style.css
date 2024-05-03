@@ -1,6 +1,10 @@
 header{
-    position: static;
+    position: -webkit-sticky;
     font-size: 20px;
+}
+
+h2, h3{
+    color: #1b4557;
 }
 
 #presentacion{
@@ -31,3 +35,58 @@ header{
     text-align: center;
     display: flex;
 }
+
+#objetivo, #programacion, #mail, #localidad{
+    flex: 0.3;
+    text-align: justify;
+    margin: 50px;
+}
+
+#aplicaciones, #telefono{
+    flex: 0.4;
+    text-align: justify;
+    margin: 50px;
+}
+
+#objetivo, #programacion, #aplicaciones, #mail, #telefono, #localidad, h3,img {
+text-align: center;
+justify-content: center;
+}
+
+#datoscontacto{
+    background-color: rgba(176, 176, 176, 0.254);
+}
+
+#datos{
+    display: flex;
+    background-color: rgba(176, 176, 176, 0.254);
+    flex: 100%;  
+}
+#datoscontacto h2{
+    padding-top: 25px;
+    text-align: center;
+}
+
+footer{
+    background-color: #1b4557;
+    color: white;
+    padding-top: 50px;
+    font-size: x-large;
+}
+
+footer img{
+    filter: invert(1);
+}
+#imagenesfooter{
+    justify-content: center;
+    text-align: center;
+    margin-inline: 10px;
+}
+
+#textosfooter{
+    display: flex;
+    padding-bottom: 50px;}
+
+#cv{ text-align: right;}
+#derechos{ text-align: left;}
+
